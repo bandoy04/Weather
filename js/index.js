@@ -12,7 +12,7 @@ var formattedDate = newDate.format("dddd, mmmm dS");
 
 function getWeather() {
     $.simpleWeather({
-        woeid: '22721202', 
+        woeid: '1096823', 
         location: '',
         unit: 'c',
         success: function(weather) {
