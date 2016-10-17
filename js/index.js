@@ -1,6 +1,6 @@
 $(document).ready(function() {
     getWeather(); //Get the initial weather.
-    setInterval(getWeather, 600000); //Update the weather every 10 minutes.
+    setInterval(getWeather, 20000); //Update the weather every 10 minutes.
 });
 
 // var d = new Date();
@@ -12,7 +12,7 @@ var formattedDate = newDate.format("dddd, mmmm dS");
 
 function getWeather() {
     $.simpleWeather({
-        woeid: '2452078', 
+        woeid: '22721202', 
         location: '',
         unit: 'c',
         success: function(weather) {
