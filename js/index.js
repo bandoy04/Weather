@@ -5,13 +5,14 @@ $(document).ready(function() {
 
 // var d = new Date();
 // document.getElementById("currentDate").innerHTML = d;
+// 22721202
 
 var newDate = new Date();
 var formattedDate = newDate.format("dddd, mmmm dS");
 
 function getWeather() {
     $.simpleWeather({
-        woeid: '22721202', 
+        woeid: '2452078', 
         location: '',
         unit: 'c',
         success: function(weather) {
