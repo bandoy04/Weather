@@ -3,6 +3,9 @@ $(document).ready(function() {
     setInterval(getWeather, 600000); //Update the weather every 10 minutes.
 });
 
+// var d = new Date();
+// document.getElementById("currentDate").innerHTML = d;
+
 var newDate = new Date();
 var formattedDate = newDate.format("dddd, mmmm dS");
 
