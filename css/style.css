@@ -1,0 +1,75 @@
+/*
+  Docs at http://http://simpleweatherjs.com
+*/
+
+.weatherimage {
+    float: left;
+    position: absolute;
+    padding-top: 30px;
+    margin: 0 20px;
+}
+.currentweather {
+    position: absolute;
+    margin: 0 180px;
+    width: 600px;
+}
+.forecast {
+    position: absolute;
+    width: 600px;
+    margin: 0 20px;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+    margin-top: 200px;
+    padding: 10px;
+    text-align: center;
+    /*   Horizontal Spacing */
+    
+    -webkit-column-count: 4;
+    /* Chrome, Safari, Opera */
+    
+    -moz-column-count: 4;
+    /* Firefox */
+    
+    column-count: 4;
+    -webkit-column-gap: 10px;
+    /* Chrome, Safari, Opera */
+    
+    -moz-column-gap: 10px;
+    /* Firefox */
+    
+    column-gap: 10px;
+}
+
+.currentDate {
+    position: absolute;
+/* 
+    margin: 160px 430px;
+ */
+    margin: 160px 190px;
+    width: 600px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+body {
+    font: 13px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    background: #094e93;
+}
+/* 
+#weather {
+  width: 425px;
+
+  text-align: center;
+}
+ */
+
+#weather h2 {
+    margin: 0 0 8px;
+    color: #fff;
+    font-size: 10em;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
