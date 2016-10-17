@@ -7,15 +7,14 @@ $(document).ready(function() {
 // document.getElementById("currentDate").innerHTML = d;
 // 22721202
 
-var newDate = new Date();
-var formattedDate = newDate.format("dddd, mmmm dS");
-
 function getWeather() {
     $.simpleWeather({
         woeid: '1096823', 
         location: '',
         unit: 'c',
         success: function(weather) {
+            var newDate = new Date();
+            var formattedDate = newDate.format("dddd, mmmm dS");
             html = '<div class="weatherimage"><img src="' + weather.image + '"> </div>'
             html += '<div class="currentweather"><h2>' + weather.temp + '&deg;' + weather.units.temp + '</h2> </div>';
             html += '<div class="currentDate">' + formattedDate + '</div>';
