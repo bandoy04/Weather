@@ -57,13 +57,11 @@ body {
     font: 13px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     background: #094e93;
 }
-/* 
-#weather {
-  width: 425px;
 
-  text-align: center;
+#weather {
+    margin-left: 300px;
 }
- */
+
 
 #weather h2 {
     margin: 0 0 8px;
