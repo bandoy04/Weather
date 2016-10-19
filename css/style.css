@@ -10,12 +10,12 @@
 }
 .currentweather {
     position: absolute;
-    margin: 0 180px;
-    width: 600px;
+    margin: 0 210px;
+    width: 650px;
 }
 .forecast {
     position: absolute;
-    width: 600px;
+    width: 650px;
     margin: 0 20px;
     background: #fff;
     background: rgba(255, 255, 255, 0.75);
@@ -47,7 +47,7 @@
     margin: 160px 430px;
  */
     margin: 160px 190px;
-    width: 600px;
+    width: 650px;
     text-align: center;
     color: #fff;
     font-size: 1.5em;
@@ -65,7 +65,7 @@ margin-left: 200px;
 text-align: center;
    margin-left:auto;
    margin-right:auto;
-   width: 650px;
+   width: 700px;
 }
 
 
