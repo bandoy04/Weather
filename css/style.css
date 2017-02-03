@@ -3,7 +3,6 @@ body {
     font-weight: 200;
     background: #094e93;
     text-align: center;
-    background-color: yellow;
 }
 #mainDiv {
     position: relative;
@@ -11,7 +10,7 @@ body {
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-    color: blue;
+    background: blue;
 }
 
 .weatherimage {
@@ -22,7 +21,7 @@ body {
     left: 0px;
     float: left;
     padding-top: 20px;
-    color: red;    
+    background: red;    
 }
 
 .currentweather {
@@ -36,7 +35,7 @@ body {
     color: #fff;
     font-size: 9em;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
-    color: green;
+    background: green;
     
 }
 
@@ -49,7 +48,7 @@ body {
     top: 40%;
     color: #fff;
     font-size: 1.5em;
-    color: purple;
+    background: purple;
 
 }
 
@@ -62,7 +61,7 @@ body {
     border-radius: 10px;
     z-index: 1;
     top: 180px;
-    color: orange;
+    background: orange;
     
 }
 
