@@ -3,7 +3,7 @@ body {
     font-weight: 200;
     background: #094e93;
     text-align: center;
-    color: yellow;
+    background-color: yellow;
 }
 #mainDiv {
     position: relative;
