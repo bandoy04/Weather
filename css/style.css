@@ -4,12 +4,24 @@ body {
     background: #094e93;
     text-align: center;
 }
+
 #mainDiv {
     position: relative;
     width: 85%;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#errorMsg {
+    color: white;
+    font-size: 2em;
+    position: relative;
+    width: 85%;
+    padding-top: 80px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;    
 }
 
 .weatherimage {
@@ -33,7 +45,6 @@ body {
     color: #fff;
     font-size: 9em;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
-    
 }
 
 .currentDate {
@@ -55,10 +66,14 @@ body {
     background: rgba(255, 255, 255, 0.75);
     border-radius: 10px;
     z-index: 1;
-    top: 180px;    
+    top: 180px;
 }
 
-.forecast0, .forecast1, .forecast2, .forecast3, .forecast4 {
+.forecast0,
+.forecast1,
+.forecast2,
+.forecast3,
+.forecast4 {
     width: 20%;
     height: auto;
     float: left;
